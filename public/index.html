@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Bakery Menu</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-    <h1>Menu</h1>
-    <ul>
-        <li>
-            <h2>Cupcakes</h2>
-        </li>
-        <li>
-            <h2>Muffins</h2>
-        </li>
-        <li>
-            <h2>Cookies</h2>
-        </li>
-    </ul>
+    <h1 id="menu">Menu</h1>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cookies</td>
+                <td>$1/each</td>
+            </tr>
+            <tr>
+                <td>Cupcakes</td>
+                <td>$.50/each</td>
+            </tr>
+            <tr>
+                <td>Muffins</td>
+                <td>$1/each</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
