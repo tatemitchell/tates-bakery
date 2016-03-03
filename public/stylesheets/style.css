@@ -1,20 +1,14 @@
 body {
-  background-color:teal;
+  background-color:gray;
 }
 h1 {
   color:blue;
   font-size:50px;
-  text-align: center;
 }
 h2 {
-  color:purple;
+  color:cyan;
 }
 ul {
   list-style: none;
-}
-button {
-
-}
-li {
-  color:darkgreen;
+  padding-left: 0;
 }
